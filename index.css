@@ -1,0 +1,513 @@
+*{
+    font-family: 'Ibarra Real Nova', serif;
+font-family: 'PT Serif', serif;
+}
+
+
+#cabecera {
+    background-color:wheat;
+    width: 1349px;
+    height: 100px;
+    display: flex;
+    gap: 40px;
+}
+
+#cabecera .inicio{
+    display: flex;
+}
+
+.imgInicio{
+    width: 70px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.palabraInicio{
+margin-top: 40px;
+text-decoration: none;
+}
+
+/*MARGIN: DISTANCIA DE CAJAS*/
+#cabecera .logo {
+   width:120px;
+   height: 100px;
+    margin-left: 20px;
+    margin-right: 500px;
+
+}
+
+#cabecera .carrito {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 25px;
+    
+}
+
+
+
+#cabecera .imgCarrito {
+    width: 70px;
+    height: 70px;
+    padding-bottom: 15px;
+
+}
+#cabecera .palabraCarrito{
+        margin-top: 15px;
+        text-decoration: none;
+}
+
+
+#cabecera .cuenta {
+   margin-top: 35px;
+   margin-left: -30px;
+}
+
+#cabecera .imgCuenta{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.cuenta2{
+    width: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+/*--------------------------------------------------------------------------*/
+
+body{
+   background-color: #f5f2f0;
+}
+
+#Menu {
+    /*flex:hace que los contenedores se pongan al lado de otro
+    gap:hace un espaciado a la derecha*/
+    display: flex;
+    gap: 300px;
+    background-color:wheat;
+    width: 120px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-radius: 20px;
+  
+}
+
+
+
+
+#Menu .menu{
+    margin-left: 8px;
+    text-decoration: none;
+   
+
+}
+
+#Menu .menu2
+{  list-style: none;
+   
+}
+#Menu .link{
+    text-decoration: none;
+}
+
+
+ #Menu .imgBanner{
+ 
+        box-sizing: border-box;
+        max-width: 1200px;
+        width: 700px;
+        max-height: 400px;
+        height: 300px;
+        
+ }
+
+
+#Menu .imgBanner {
+    display: inline-block;
+
+}
+
+/*--------------------------------------------------------------------------------*/
+#Sabores{
+    padding-top: 30px;
+}
+
+#Sabores .sabores{
+  display: flex;
+  gap: 90px;
+}
+
+#Sabores .linea1{
+    display: flex;
+    width: 100px;
+}
+#Sabores .linea2{
+    width: 500px;
+}
+.palabraSabor{
+    text-align: center;
+    background-color:#abc3e4;
+    width: 300px;
+    height: 40px;
+    margin-left: 500px;
+    border-radius: 10px;
+    
+ 
+}
+
+
+.saborChocolate{
+
+ margin-left: 60px;
+ background-color:#ffbd59;
+ border-radius: 10px;
+
+ width: 200px;
+
+}
+
+.pastelChoco{
+    text-align: center;
+}
+
+.imgSabores1{
+    width: 140px;
+   height: 125px;
+   margin-left: 20px;
+}
+.precio1{
+    margin-left: 72px;
+}
+.ver1{
+    margin-left: 60px;
+    width: 60px;
+    border-radius: 10px;
+    border-color: #abc3e4;
+}
+
+
+
+.pastelFresa{
+    text-align: center;
+}
+.imgSabores2{
+    width: 145px;
+   height: 125px;
+   margin-left: 20px;
+}
+.precio2{
+    margin-left: 70px;
+}
+
+
+.pastelVainilla{
+        text-align: center;    
+}
+.imgSabores3{
+    width: 140px;
+   height: 125px;
+   margin-left: 20px;
+}
+.precio3{
+    margin-left: 70px;
+}
+
+
+.pastelFrutas{
+    text-align: center;
+}
+.imgSabores4{
+    width: 143px;
+   height: 125px;
+   margin-left: 20px;
+
+}
+.precio4{
+    margin-left: 70px;
+}
+
+
+.pastelNapolitano{
+    text-align: center;
+}
+.imgSabores5{
+    width: 143px;
+   height: 125px;
+   margin-left: 20px;
+}
+.precio5{
+    margin-left: 70px;
+}
+
+.saborFrutas{
+    background-color:#ffbd59;
+    border-radius: 10px;
+
+    width: 200px;
+   
+}
+
+.saborFresa{
+    background-color:#ffbd59;
+    border-radius: 10px;
+
+    width: 200px;
+   
+
+}
+.saborVainilla{
+    background-color:#ffbd59;
+    border-radius: 10px;
+   
+    width: 200px;
+
+}
+
+.saborNapolitano{
+    background-color:#ffbd59;
+    border-radius: 10px;
+    margin-right: 30px;
+    width: 200px;
+
+}
+
+
+/*----------------------------------------------------------------------------------*/
+#Adornos{
+    padding-top: 30px;
+}
+
+#Adornos .adornos{
+    display: flex;
+    gap: 90px;
+}
+
+
+.palabraAdorno{
+    text-align: center;
+    background-color:#abc3e4;
+    width: 300px;
+    height: 40px;
+    margin-left: 500px;
+    border-radius: 10px;
+ 
+}
+
+
+.adornoRB{
+    text-align: center
+}
+.adornoRblanca{
+    margin-left: 60px;
+    background-color:#ffbd59;
+    border-radius: 10px;
+   
+    width: 200px;
+}
+.img-adornos1{
+ 
+    width: 160px;
+    margin-left: 20px;
+    height: 125px
+}
+.precio10{
+    margin-left: 70px;
+}
+.ver10{
+    margin-left: 60px;
+    width: 60px;
+    border-radius: 10px;
+    border-color: #abc3e4;
+}
+
+
+
+
+.adornoRroja{
+    text-align: center;
+}
+.adornoRroja{
+    margin-left: 60px;
+ background-color:#ffbd59;
+ border-radius: 10px;
+
+ width: 200px;
+}
+.img-adornos2{
+    width: 160px;
+    margin-left: 5px;
+    height: 125px
+}
+.precio11{
+    margin-left: 10px;
+}
+.ver11{
+    margin-left: 10px;
+    width: 60px;
+    border-radius: 10px;
+    border-color: #abc3e4;
+}
+
+
+.adornoT{
+    text-align: center;
+}
+.adornoTopper{
+    margin-left: 60px;
+    background-color:#ffbd59;
+    border-radius: 10px;
+   
+    width: 200px;
+}
+.img-adornos3{
+    width: 160px;
+    margin-left: 20px;
+    height: 125px
+}
+.precio12{
+    margin-left: 80px;
+}
+.ver12{
+    margin-left: 70px;
+    width: 60px;
+    border-radius: 10px;
+    border-color: #abc3e4;
+}
+
+
+.adornoG{
+    text-align: center;
+}
+.adornoGalleta{
+    margin-left: 60px;
+    background-color:#ffbd59;
+    border-radius: 10px;
+   
+    width: 215px;
+}
+.img-adornos4{
+    width: 165px;
+    margin-left: 25px;
+    height: 125px
+}
+.precio13{
+    margin-left: 90px;
+}
+.ver13{
+    margin-left: 80px;
+    width: 60px;
+    border-radius: 10px;
+    border-color: #abc3e4;
+}
+
+
+
+/*------------------------------------------------------------------*/
+#Combinaciones{
+    padding-top: 30px;
+}
+
+#Combinaciones .combinaciones{
+display: flex;
+gap: 20px;
+padding-top: 10px;
+}
+
+.palabraCombinaciones{
+    text-align: center;
+    background-color:#abc3e4;
+    width: 300px;
+    height: 40px;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+.palabraPuedes{
+    text-align: center;
+
+}
+
+.sabores3{
+    margin-left: 300px;
+    background-color:#ffbd59;
+    border-radius: 10px;
+   
+    width: 215px;
+}
+.img-combinaciones1{
+    width: 165px;
+    margin-left: 25px;
+    height: 245px;
+    margin-top: 20px;
+
+}
+.combinaciones1{
+    margin-left: 68px;
+}
+
+.tamanos3{
+    margin-left: 60px;
+    background-color:#ffbd59;
+    border-radius: 10px;
+   
+    width: 215px;
+}
+.img-combinaciones2{
+    width: 165px;
+    margin-left: 25px;
+    height: 245px;
+    margin-top: 20px;
+
+}
+.combinaciones2{
+    margin-left: 60px;
+}
+
+
+.adorno3{
+    margin-left: 60px;
+    background-color:#ffbd59;
+    border-radius: 10px;
+   
+    width: 215px;
+}
+.img-combinaciones3{
+    width: 165px;
+    margin-left: 25px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.combinaciones3{
+    margin-left: 60px;
+}
+
+.elegir{
+    padding-top: 30px;
+    margin-left: 600px;
+}
+.elegir2{
+        width: 200px;
+        border-radius: 10px;
+        border-color: #abc3e4;
+}
+
+
+
+
+
+
+
+
+
+#Footer{
+    background-color: #abc3e4;
+   
+}
+#Footer .footer{
+    display: flex;
+    gap: 60px;
+    margin-left: 400px;
+    
+}
