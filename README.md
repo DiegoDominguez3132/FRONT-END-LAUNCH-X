@@ -22,3 +22,10 @@ Modulo #3:Practicas CSS
 
 [Link a la pagina](https://diegodominguez3132.github.io/Pagina-web-Vaccination/)
 
+Modulo #4:Practica Js
+
+[Repositorio Practica Pokedex](https://github.com/DiegoDominguez3132/PRACTICA-JS)
+
+[Link a la pagina](https://diegodominguez3132.github.io/PRACTICA-JS/)
+
+
